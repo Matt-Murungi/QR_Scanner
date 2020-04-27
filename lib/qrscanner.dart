@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:qr_code/customs/qrscan.dart';
+import 'package:qr_code/services/qrscan.dart';
 
 
 class QRScanScreen extends StatefulWidget {
@@ -48,7 +48,7 @@ class _QRScanScreenState extends State<QRScanScreen> {
           child: Container(
             height: double.infinity,
             width: double.infinity,
-            child: Center(child: Text(result)),
+            child: Center(child: Text(result)) ,
           ),
         ),
       ),
